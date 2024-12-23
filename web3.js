@@ -21,7 +21,7 @@ function updateTimer() {
 
 const timerInterval = setInterval(updateTimer, 1000);
 
-// Contest form submission handler
+
 document.getElementById("contest-form").addEventListener("submit", function (event) {
   event.preventDefault();
   
